@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
   int val = getCnt();
-  analogWrite(5, val * 30);
+  analogWrite(5, val * 10);
 }
 
 int getCnt() {

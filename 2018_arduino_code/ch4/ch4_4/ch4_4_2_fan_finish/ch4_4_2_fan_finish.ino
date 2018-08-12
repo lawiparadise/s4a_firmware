@@ -16,7 +16,7 @@ void loop() {
       SW = false;
     } else {
       digitalWrite(3, HIGH);
-      analogWrite(5, analogRead(A0) / 10);
+      analogWrite(5, analogRead(A0) / 100);
     }
   } else {
     digitalWrite(3, LOW);

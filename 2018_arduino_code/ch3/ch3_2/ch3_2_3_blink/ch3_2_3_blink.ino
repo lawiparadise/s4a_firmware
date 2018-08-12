@@ -8,4 +8,3 @@ void loop() {
   digitalWrite(3, LOW);
   delay(500);
 }
-

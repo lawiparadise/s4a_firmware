@@ -6,6 +6,6 @@ void setup() {
 void loop() {
   int val = analogRead(A0);
   Serial.println(val);
-  analogWrite(5, val / 10);
+  analogWrite(5, val / 100);
 }
 
